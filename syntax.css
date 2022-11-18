@@ -1,0 +1,103 @@
+body{
+    margin: 0 ;
+    background-color: white;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+#menus{
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+position: fixed;
+top: 0;
+background-color: white;
+
+}
+#header{
+    display: inline-flex;
+    color: red;
+    justify-content: flex-start;
+    width: 30%;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#navigations{
+width: 70%;
+margin: 10px;
+padding: 10px;
+}
+#navigations ul{
+    list-style-type: none;
+    margin: 5px;
+    justify-content: flex-end;
+    text-align: right;
+
+}
+li{
+    display: inline-flex;
+    margin-left: 2px;
+}
+a{
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid;
+    background-color:rgb(0, 0, 60);
+    color: white
+}
+img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+#main-content{
+text-align: center;
+margin: 50px;
+}
+#main-content h1{
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#main-content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+#price-section{
+    text-align: center;
+    margin: 50px;
+}
+table, th, td{
+    text-align:start;
+    border: 2px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    margin: auto;
+    padding: 2px;
+
+}
+th{
+    background-color: rgb(120, 50, 0);
+    padding: 5px;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(0, 0, 60);
+    width: 100%;
+    padding: 70px 0;
+    color: white;
+    
+}
+
+.rights{
+    font-size: 16px;
+}
