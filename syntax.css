@@ -39,10 +39,6 @@ border-radius: 50px;
 .skills{
     text-align: center;
 }
-.skills h3{
-    text-align: center;
-    font-style: oblique;
-}
 .contact{
     text-align: center;
 }
@@ -61,12 +57,10 @@ border-radius: 50px;
 .shopping img{
     border-radius: 30px;
 }
-#contact-form{
-    background-color: rgba(0, 0, 255, 0.068);
+#contact-form input{
+    color: blue;
 }
 #contact-form h3{
     text-align: center;
-}
-#contact-form input{
-    color: blue;
+    color: bisque;
 }
